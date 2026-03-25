@@ -18,6 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://agentend.ai"),
   title: "Agentend — Agent as a Backend",
   description:
     "The Python framework where the agent is the backend. Define capabilities, not endpoints. Ship agent-powered products in days, not months.",
