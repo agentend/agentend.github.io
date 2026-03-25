@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00E59B"/>
+      <stop offset="35%" stop-color="#1CC8C8"/>
+      <stop offset="65%" stop-color="#4B8BE0"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <clipPath id="iconClip">
+      <rect x="80" y="80" width="864" height="864" rx="190" ry="190"/>
+    </clipPath>
+  </defs>
+
+  <!-- Black background -->
+  <rect width="1024" height="1024" fill="#000000" rx="40" ry="40"/>
+
+  <!-- Gradient rounded rectangle -->
+  <rect x="80" y="80" width="864" height="864" rx="190" ry="190" fill="url(#bgGrad)"/>
+
+  <!-- Figure silhouette clipped to rounded rect -->
+  <g clip-path="url(#iconClip)">
+    <!-- Head -->
+    <circle cx="512" cy="310" r="82" fill="#0B0B0F"/>
+
+    <!-- Neck connector -->
+    <path d="M478 380 L546 380 L556 435 L468 435 Z" fill="#0B0B0F"/>
+
+    <!-- Body - wide trapezoid -->
+    <path d="M468 435 L280 960 L744 960 L556 435 Z" fill="#0B0B0F"/>
+  </g>
+</svg>
